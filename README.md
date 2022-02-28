@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">My Gallery</h1>
+<h1 align="center">Checkout page</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -35,7 +35,7 @@
 
 ## Overview
 
-![screenshot](https://github.com/Ritesh7766/My-Gallery/blob/main/assets/demo.png)
+![screenshot](https://github.com/Ritesh7766/Checkout-page/blob/main/assets/demo.png))
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
