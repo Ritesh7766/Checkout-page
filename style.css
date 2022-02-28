@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+    color: rgb(99, 96, 96);
+}
+
+.total-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.title {
+    width: fit-content;
+    margin: 10px;
+    margin-left: 35px;
+    font-size: 1.5em;
+}
+
+.flex-box {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content {
+    display: flex;
+    width: fit-content;
+    align-items: flex-start;
+}
+
+.bottom-div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.field input, .field select {
+    padding: 15px 35px;
+    border-radius: 10px;
+    padding-left: 40px;
+    width: 100%;
+    border: 1px solid rgb(99, 96, 96);
+}
+
+.input {
+    display: flex;
+    position: relative;
+}
+
+.icon {
+    width: 25px;
+    position: absolute;
+    height: 100%;
+    left: 10px;
+}
+
+.icon img {
+    max-width: 100%;
+}
+
+.bag-item {
+    display: flex;
+}
+
+.bag-item .image {
+    width: 140px;
+    margin: 25px;
+    margin-right: 10px;
+}
+
+.bag-item img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.info {
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 25px;
+    margin-left: 10px;
+    width: 150px;
+}
+
+.info .item {
+    padding: 5px;
+    width: 100%;
+}
+
+.price {
+    display: flex;
+    width: 100%;
+}
+
+.price * {
+    padding: 5px;
+}
+
+.shopping-bag {
+    background-color: #f5f2f2;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.quantity {
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgb(121, 118, 118);
+    padding: 10px 10px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.num {
+    font-size: 1.3em;
+}
+
+
+.btn {
+    width: 20px;
+    background-color: rgb(213, 211, 211);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn img {
+    padding: 5px;
+}
+
+.marked-price {
+    font-size: 1.1em;
+}
+
+.sell-price {
+    color: rgba(255, 132, 0, 0.666);
+    font-size: 1.3em;
+}
+
+.line, .cost {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.cost {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.hr {
+    border: 1px solid rgb(160, 14, 14);
+}
+
+.forms {
+    margin: 20px;
+}
+
+.forms h2 {
+    margin: 15px;
+}
+
+.field {
+    margin: 15px;
+}
+
+.sub-section {
+    display: flex;
+}
+
+.contact-info {
+    margin-bottom: 60px;
+}
+
+.sub-section .field {
+    margin-top: 0;
+}
+
+.field p {
+    margin: 5px;
+    margin-left: 0;
+}
+
+.confirmation {
+    margin: 15px;
+}
+
+.checkbox {
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgb(124, 123, 123);
+    display: block;
+}
+
+.checkbox:hover {
+    background-color: rgb(213, 211, 211);
+}
+
+.msg {
+    margin-left: 10px;
+}
+
+.remember {
+    display: flex;
+}
+
+.confirm-btn {
+    float: right;
+    background-color: rgba(255, 132, 0, 0.816);
+    padding: 10px 30px;
+    border: none;
+    color: #f5f2f2;
+    font-size: 1.5em;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.confirm-btn:hover {
+    background-color: rgba(255, 132, 0, 0.919);
+    box-shadow: 0 0 10px 5px rgba(255, 132, 0, 0.672);
+    transition-duration: 0.5s;
+}
+
+input:hover {
+    border: 1px solid rgb(26, 25, 25);
+}
+
+.checkbox-active {
+    background-color: rgba(255, 132, 0, 0.816) !important;
+    transition-duration: 0.5s;
+}
+
+@media screen and (max-width: 800px) {
+    .main-content {
+        flex-direction: column-reverse;
+    }
+
+    .container {
+        margin: 20px;
+    }
+
+    .shopping-bag {
+        width: 100%;
+        margin: 0;
+    }
+
+    .info {
+        max-width: 120px;
+    }
+
+    .forms {
+        margin: 0;
+        margin-top: 40px;
+    }
+
+    .field input {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}

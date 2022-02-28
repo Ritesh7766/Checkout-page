@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>checkout</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+    <div class="flex-box">
+      <div class="title">
+        <h1>Checkout</h1>
+      </div>
+      <div class="main-content">
+        <div class="forms">
+          <div class="contact-info">
+            <h2>Contact information</h2>
+            <form action="">
+              <div class="field">
+                <p>E-mail</p>
+                <div class="input">
+                  <div class="icon total-center">
+                    <img src="./assets/3669350_email_ic_icon.svg" alt="">
+                  </div>
+                  <input type="text" placeholder="Enter your email...">
+                </div>
+              </div>
+              <div class="field">
+                <p>Phone</p>
+                <div class="input">
+                  <div class="icon total-center">
+                    <img src="./assets/326545_call_phone_icon.svg" alt="">
+                  </div>
+                  <input type="text" placeholder="Enter your phone...">
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="shipping-address">
+            <h2>Shipping address</h2>
+            <form action="">
+              <div class="field">
+                <p>Full name</p>
+                <div class="input">
+                  <div class="icon total-center">
+                    <img src="./assets/352002_account_circle_icon.svg" alt="">
+                  </div>
+                  <input type="text" placeholder="Rodney Cotton">
+                </div>
+              </div>
+              <div class="field">
+                <p>Address</p>
+                <div class="input">
+                  <div class="icon total-center">
+                    <img src="./assets/home-svgrepo-com.svg" alt="">
+                  </div>
+                  <input type="text" placeholder="Your address...">
+                </div>
+              </div>
+              <div class="field">
+                <p>City</p>
+                <div class="input">
+                  <div class="icon total-center">
+                    <img src="./assets/d14ce9f8a576e5a8171558959d5ebc8a.svg" alt="">
+                  </div>
+                  <input type="text" placeholder="Your city...">
+                </div>
+              </div>
+              <div class="sub-section">
+                <div class="field">
+                  <p>Country</p>
+                  <div class="input">
+                    <div class="icon total-center">
+                      <img src="./assets/earth-globe-tool-svgrepo-com.svg" alt="">
+                    </div>
+                    <select name="countries" id="country">
+                      <option value="none" disabled selected>Your country...</option>
+                      <option value="Canada">Canada</option>
+                      <option value="Italy">Italy</option>
+                      <option value="India">India</option>
+                      <option value="Azerbaijan">Azerbaijan</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="field">
+                  <p>Postal code</p>
+                  <div class="input">
+                    <div class="icon total-center">
+                      <img src="./assets/mailbox.svg" alt="">
+                    </div>
+                  <input type="text" placeholder="Postal code...">
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="confirmation">
+            <div class="remember">
+              <div class="box">
+                <span class="checkbox"></span>
+              </div>
+              <div class="msg total-center">
+                <p>Save this information for next time</p>
+              </div>
+            </div>
+            <button class="confirm-btn">
+              Continue
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="shopping-bag">
+        <div class="bag-item">
+          <div class="image">
+            <img src="./assets/photo1.png" alt="">
+          </div>
+          <div class="info total-center">
+            <h3 class="item">Vintage Backbag</h3>
+            <div class="price">
+              <h3 class="sell-price total-center">$54.99</h3>
+              <h4 class="marked-price total-center"><s>$94.99</s></h4>
+            </div>
+            <div class="bottom-div">
+              <div class="quantity">
+                <div class="btn total-center minus">
+                  <img src="./assets/minus-line-svgrepo-com.svg" alt="">
+                </div>
+                <div class="total-center amount"> 
+                  <h4 class="num">1</h4>
+                </div>
+                <div class="btn total-center plus">
+                  <img src="./assets/plus-signs-svgrepo-com.svg" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bag-item">
+          <div class="image">
+            <img src="./assets/photo2.png" alt="">
+          </div>
+          <div class="info total-center">
+            <h3 class="item">Levi Shoes</h3>
+            <div class="price">
+              <h3 class="sell-price total-center">$74.99</h3>
+              <h4 class="marked-price total-center"><s>$124.99</s></h4>
+            </div>
+            <div class="bottom-div">
+              <div class="quantity">
+                <div class="btn total-center minus">
+                  <img src="./assets/minus-line-svgrepo-com.svg" alt="">
+                </div>
+                <div class="total-center amount"> 
+                  <h4 class="num">1</h4>
+                </div>
+                <div class="btn total-center plus">
+                  <img src="./assets/plus-signs-svgrepo-com.svg" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="receit">
+          <hr class="line">
+          <div class="cost">
+            <h3>Shipping</h3>
+            <h3 id="shipping">$19</h3>        
+          </div>
+          <hr class="line">
+          <div class="cost">
+            <h3>Total</h3>
+            <h3 id="total-cost">$148.98</h3>        
+          </div>
+        </div>
+      </div>
+    </div>
+	</div>
+</body>
+<script src="./checkbox.js"></script>
+<script src="./cost.js"></script>
+</html>
