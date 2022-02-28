@@ -250,6 +250,10 @@ input:hover {
     transition-duration: 0.5s;
 }
 
+.receit {
+    margin-top: 40px;
+}
+
 @media screen and (max-width: 800px) {
     .main-content {
         flex-direction: column-reverse;
@@ -289,4 +293,14 @@ input:hover {
     .title {
         margin-left: 0;
     }
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer * {
+    color: rgb(181, 179, 179);
 }
