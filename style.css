@@ -285,4 +285,8 @@ input:hover {
     .sell-price, .marked-price {
         font-size: 1em;
     }
+
+    .title {
+        margin-left: 0;
+    }
 }
