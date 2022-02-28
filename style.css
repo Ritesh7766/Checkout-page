@@ -39,12 +39,21 @@
 
 .bottom-div {
     width: 100%;
+    padding: 5px;
+    margin-top: 30px;
+}
+
+/*
+Dosen't work in mobile phones for some reason.
+.bottom-div {
+    width: 100%;
     height: 100%;
     display: flex;
     justify-content: end;
     flex-direction: column;
     padding: 5px;
 }
+*/
 
 .field input, .field select {
     padding: 15px 35px;
