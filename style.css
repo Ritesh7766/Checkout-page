@@ -259,6 +259,10 @@ input:hover {
         max-width: 120px;
     }
 
+    .info .item {
+        font-size: 1em;
+    }
+
     .forms {
         margin: 0;
         margin-top: 40px;
@@ -267,5 +271,9 @@ input:hover {
     .field input {
         margin-left: 0;
         margin-right: 0;
+    }
+
+    .sell-price, .marked-price {
+        font-size: 1em;
     }
 }
